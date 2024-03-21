@@ -1,0 +1,162 @@
+header {
+    background-color: #4c535c;
+    text-align: center;
+    box-shadow: 10px 10px 10px #94735d;
+    margin-bottom: 3px;
+}
+
+
+body{
+    background-color: #EFBC9B;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 0 20px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    color: black;
+}
+
+
+footer button {
+    margin-left: auto;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    
+}
+
+
+.top{
+    background-color: #6b9c8f;
+}
+
+
+.browserDesign{
+    background-color: #D6DAC8;
+    box-shadow: 10px 10px 10px #94735d;
+    margin-bottom: 15px;
+}
+
+
+hr {
+    border-color: #1F2122;
+}
+
+/*Navigation Design*/
+nav {
+    background-color: #6b9c8f;
+    padding: 10px 20px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 0;
+}
+
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+
+nav ul li a:hover, 
+nav ul li a:active {
+    background-color: #FBF3D5;
+    color: #1F2122;
+}
+
+
+/* Table Design */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: justify;
+    border: 1px solid grey;
+}
+
+th {
+    background-color: #6b9c8f;
+    color: white;
+}
+
+td.timings {
+    white-space: nowrap; /* Prevent text wrapping for timings */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    color: grey;
+    background-color: #D6DAC8;
+}
+
+
+/*text Designs*/
+#headingText{
+    padding-bottom: 20px;
+    color: #0C0F0F;
+    text-align: center;
+}
+
+#text1{
+    margin: 20px;
+    padding: 20px;
+    color: #0C0F0F;
+    background-color: #FBF3D5;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.section3Items{
+    background-color: #FBF3D5;
+    padding: 1px 20px;
+    text-align: justify;
+}
+
+.section4Items{
+    background-color: #FBF3D5;
+    padding: 1px 20px;
+    text-indent: 25px;
+    text-align: justify;
+}
+
+
+/*Section Designs*/
+#section2{
+    display: flex;
+    justify-content: space-around;
+}
+
+#section3{
+    padding: 0 20px;
+    color: #0C0F0F;
+}

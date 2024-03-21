@@ -1,0 +1,152 @@
+header {
+    background-color: #ffffff;
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+body {
+    background-color: #ffffff;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 0 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    color: #000000;
+}
+
+footer button {
+    margin-left: auto;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    
+}
+
+.top {
+    background-color: #ffffff;
+}
+
+.browserDesign {
+    background-color: #ffffff;
+    margin-bottom: 15px;
+    border: 2px solid #000000;
+}
+
+hr {
+    border-color: #000000;
+}
+
+/* Navigation Design */
+nav {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border: 2px solid #000000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+nav ul li a:hover,
+nav ul li a:active {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* Table Design */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: justify;
+    border: 2px solid #000000;
+}
+
+th {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+td.timings {
+    white-space: nowrap; /* Prevent text wrapping for timings */
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+tr:hover {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+/* Text Designs */
+#headingText {
+    padding-bottom: 20px;
+    color: #000000;
+    text-align: center;
+}
+
+#text1 {
+    margin: 20px;
+    padding: 20px;
+    color: #000000;
+    background-color: #ffffff;
+    font-weight: bold;
+    text-align: justify;
+    border: 2px solid #000000;
+}
+
+.section3Items {
+    background-color: #ffffff;
+    padding: 1px 20px;
+    text-align: justify;
+    border: 2px solid #000000;
+}
+
+.section4Items {
+    background-color: #ffffff;
+    padding: 1px 20px;
+    text-indent: 25px;
+    text-align: justify;
+    border: 2px solid #000000;
+}
+
+/* Section Designs */
+#section2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#section3 {
+    padding: 0 20px;
+    color: #000000;
+}
