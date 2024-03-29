@@ -1,0 +1,153 @@
+/* General Styles */
+body {
+    background: url('https://media.istockphoto.com/id/1364376802/vector/glow-modern-background-blur.jpg?s=612x612&w=0&k=20&c=SBOz5Ge_Q_jidQ--q2Cud70BJk8AOcdnWFRT1jh65BQ=') no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #4c535c;
+    text-align: center;
+    box-shadow: 10px 10px 10px #00000050;
+    margin-bottom: 3px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.top {
+    background-color: #2d3a41;
+}
+
+.browserDesign {
+    background-color: #e2d5e48f;
+    box-shadow: 10px 10px 10px #00000050;
+    margin-bottom: 15px;
+}
+
+/* Navigation Design */
+nav {
+    background-color: #2d3a41;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+nav ul li a:hover, nav ul li a:active {
+    background-color: #00aeff;
+    color: #1F2122;
+}
+
+/* Text Designs */
+#headingText {
+    padding-bottom: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.text1 {
+    margin: 20px;
+    padding: 20px;
+    color: #ffffff;
+    background-color: #ffffff;
+    font-weight: bold;
+    text-align: justify;
+}
+
+/* Section Designs */
+.section1_inside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.section2 button {
+    padding: 10px;
+    background-color: #4c535cc4;
+    color: #FFFFFF;
+    border: 0px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.section2 input{
+    border: 0px;
+    border-radius: 25px;
+}
+
+/* Flex container for the sections */
+.soundboard {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1px;
+    margin: 5px;
+}
+
+/* Soundboard Button Style */
+.soundboard button {
+    padding: 10px 20px;
+    background-color: #4c535cc4;
+    border-radius: 25px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+}
+
+.soundboard button:hover {
+    background-color: #00aeff;
+}
+
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 20px;
+}
+
+.input-container {
+    width: 300px;
+}
+
+#text-to-speech {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+small {
+    color: #FFFFFF;
+}
