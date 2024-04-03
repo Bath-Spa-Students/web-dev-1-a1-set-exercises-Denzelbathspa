@@ -1,0 +1,37 @@
+div {
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 25px;
+    border: 4px solid black;
+    line-height: 100px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+  }
+  
+body {
+margin: 100px auto;
+width: max-content;
+}
+
+div#A {
+    box-shadow: 10px 10px 10px rgb(255, 0, 76);
+    border: 4px solid rgb(148, 0, 161);
+}
+
+div#B {
+    box-shadow: inset 10px 10px 10px black;
+    border: 4px solid rgb(0, 255, 64);
+}
+
+div#C {
+    border: 5px solid orange;
+    border-radius: 25px;
+    box-shadow: 0 0 0 10px blue, 0 0 0 20px red, 0 0 0 30px green;
+}
+
+div#D {
+    text-shadow: 5px 5px 1.5px;
+    border: 4px solid rgb(204, 17, 17);
+}
